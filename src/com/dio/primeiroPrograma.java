@@ -22,13 +22,14 @@ public class primeiroPrograma {
     }
 }
 
-class Livro{
+class Livro {
     private String nome;
-    private  int numPaginas;
+    private int numPaginas;
 
     public Livro(String nome, int numPaginas) {
         this.nome = nome;
         this.numPaginas = numPaginas;
+
     }
 
     public Livro() {
